@@ -215,7 +215,7 @@ section .title::after{
 
 /* about section styling */
 .about .title::after{
-    content: "who i am";
+    content: "Who I am";
 }
 .about .about-content .left{
     width: 45%;
@@ -585,7 +585,7 @@ footer span a:hover{
 }
 @media (max-width: 947px){
     .home{
-        background: #222;
+        background: black;
     }
     .menu-btn{
         display: block;
