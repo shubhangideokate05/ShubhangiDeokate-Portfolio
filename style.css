@@ -306,7 +306,7 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "what i know";
+    content: "What I know";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -578,11 +578,15 @@ footer span a:hover{
 }
 
 @media (max-width: 991px) {
+    
     .max-width{
         padding: 0 50px;
     }
 }
 @media (max-width: 947px){
+    .home{
+        background: #222;
+    }
     .menu-btn{
         display: block;
         z-index: 999;
@@ -648,6 +652,7 @@ footer span a:hover{
 }
 
 @media (max-width: 690px) {
+    
     .max-width{
         padding: 0 23px;
     }
